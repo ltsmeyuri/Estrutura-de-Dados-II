@@ -19,6 +19,6 @@ class BinaryTree:
             newnode = BinaryTree(value)
             newnode.rightchild = self.rightchild
             self.rightchild = newnode
-            
+#Como faço para adicionar no final da árvore?
 tree1 = BinaryTree(1)
 tree1.insertLeft(2)
